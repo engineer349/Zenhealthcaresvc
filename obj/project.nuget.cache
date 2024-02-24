@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "8ZF56KcGBjaobIfSwj8eCwTJiWrqZoV1v3uPQogCgsgOGb3jEXBFIA+98zX8RwXf34fAwBNDK7fRA0CsKr7WKQ==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\Zenhealthcareservice\\Zenhealthcareservice.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\91962\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.4\\microsoft.visualstudio.azure.containers.tools.targets.1.19.4.nupkg.sha512"
+  ],
+  "logs": []
+}

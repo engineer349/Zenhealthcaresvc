@@ -1,6 +1,9 @@
+using Zenhealthcareservice;
+
 var builder = WebApplication.CreateBuilder(args);
-var app = builder.Build();
+var startup = new Startup(builder.Configuration);
+startup.ConfigureServices(builder.Services);
 
-app.MapGet("/", () => "Hello World!");
+var zenhealthcareserviceapp = builder.Build();
+startup.Configure(zenhealthcareserviceapp, builder.Environment);
 
-app.Run();
